@@ -1,8 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
-      <h1 class="title">nuxt Widget Store</h1>
+      <h1>Nuxt.js</h1>
       <div class="cards">
         <widget-card
           v-for="widget in widgets"
@@ -10,24 +9,6 @@
           :title="widget.title"
           :description="widget.description"
         ></widget-card>
-      </div>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
       </div>
     </div>
   </div>
